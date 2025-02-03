@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, #e0bbff, #a974ff, #7a00cc);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 180px;
+}
+form {
+    background: radial-gradient(circle, #ffffff, #757575, #434343);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 12px;
+}
+h1 {
+    margin: 0 0 15px;
+}
+input, select, button, a {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+select {
+    width: 60px;
+    text-align: center;
+}
+button, a {
+    display: block;
+    margin: 0 auto;
+    width: 315px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 0;
+    text-decoration: none;
+    border-radius: 7px;
+}
+a {
+    margin-top: 20px;
+}
+input, select{
+    border-radius: 7px;
+}
+
+@media print {
+
+    a {
+        display: none;
+    }
+}
